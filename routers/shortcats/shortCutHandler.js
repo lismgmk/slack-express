@@ -3,15 +3,16 @@ const web = require('../../utils/slackWebClient');
 const updateChat = require('./slackChatUpdate');
 
 module.exports = async (req, res) => {
-  console.log('++CHORTCAT', req.body);
   try {
     const reqBody = JSON.parse(req.body.payload);
     const action = reqBody.actions[0];
     const ts = reqBody.message.ts;
-    console.log(reqBody.channel.name, '++++++++');
+    if (reqBody.type === 'view_submission') {
+    }
 
     if (action.action_id === 'button_open_modal') {
       await web.views.open({
+        trigger_id: reqBody.trigger_id,
         channel: reqBody.channel.id,
         ts: ts,
         text: 'changed',

@@ -1,0 +1,19 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "Authentificator",
+    "golevelup",
+    "nestjs",
+    "odnoklassniki",
+    "puppitier",
+    "qrcode",
+    "Rabbitmq",
+    "websockets"
+  ]
+}
