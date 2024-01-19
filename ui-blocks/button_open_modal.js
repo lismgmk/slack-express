@@ -1,3 +1,5 @@
+const { BUTTON_OPEN_MODAL_ACTION_ID } = require('./const/button_open_modal.const');
+
 const button_open_modal = [
   {
     type: 'section',
@@ -15,7 +17,7 @@ const button_open_modal = [
           type: 'plain_text',
           text: 'Начать',
         },
-        action_id: 'button_open_modal',
+        action_id: BUTTON_OPEN_MODAL_ACTION_ID,
       },
     ],
   },

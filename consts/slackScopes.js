@@ -8,4 +8,5 @@ module.exports = {
     'incoming-webhook',
   ],
   userScopes: ['chat:write'],
+  CHANEL: '#rm_user',
 };

@@ -1,3 +1,10 @@
+const {
+  INPUT_EMAIL_BLOCK_ID,
+  EMAIL_ACTION_ID,
+  INPUT_REALM_BLOCK_ID,
+  REALM_ACTION_ID,
+} = require('./const/modal_id.const');
+
 const modal_email = {
   title: {
     type: 'plain_text',
@@ -10,9 +17,10 @@ const modal_email = {
   blocks: [
     {
       type: 'input',
+      block_id: INPUT_EMAIL_BLOCK_ID,
       element: {
         type: 'plain_text_input',
-        action_id: 'sl_input',
+        action_id: EMAIL_ACTION_ID,
         placeholder: {
           type: 'plain_text',
           text: 'example@mail.com',
@@ -29,9 +37,10 @@ const modal_email = {
     },
     {
       type: 'input',
+      block_id: INPUT_REALM_BLOCK_ID,
       element: {
         type: 'plain_text_input',
-        action_id: 'ml_input',
+        action_id: REALM_ACTION_ID,
         placeholder: {
           type: 'plain_text',
           text: 'name',

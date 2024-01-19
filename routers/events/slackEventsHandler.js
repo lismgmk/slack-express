@@ -8,12 +8,12 @@ module.exports = async (req, res) => {
 
     return res.send(challenge);
   } else {
-    console.log('++++++', button_open_modal);
-    await web.chat.postMessage({
-      channel: '#rm_user',
-      text: 'Hi from global EVENT+++',
-      blocks: button_open_modal,
-    });
-    return res.send(req.body);
+    // console.log('++++++', button_open_modal);
+    // await web.chat.postMessage({
+    //   channel: '#rm_user',
+    //   text: 'Hi from global EVENT+++',
+    //   blocks: button_open_modal,
+    // });
+    return res.sendStatus(200);
   }
 };
