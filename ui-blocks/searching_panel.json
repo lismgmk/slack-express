@@ -1,0 +1,52 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "block_id": "info_block_id_search",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Searching user {{ $('EMAIL,  BLOCK-START-SEARCH').first().json.email }} in next services:"
+      }
+    },
+    {
+      "type": "section",
+      "block_id": "mitgo_users_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Mitgo ID* [users] ... :hourglass_flowing_sand: searching"
+      }
+    },
+    {
+      "type": "section",
+      "block_id": "mitgo_giftmio_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Mitgo ID* [giftmio] ... :hourglass_flowing_sand: searching"
+      }
+    },
+    {
+      "type": "section",
+      "block_id": "admitad_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Admitad* (HQ) ... :hourglass_flowing_sand: searching"
+      }
+    },
+    {
+      "type": "section",
+      "block_id": "takeads_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Takeads* ... :hourglass_flowing_sand: searching"
+      }
+    },
+    {
+      "type": "section",
+      "block_id": "else_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Something else* ... :hourglass_flowing_sand: searching"
+      }
+    }
+  ]
+}

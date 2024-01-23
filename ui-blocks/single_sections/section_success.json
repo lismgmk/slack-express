@@ -1,0 +1,22 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "block_id": "mitgo_users_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":white_check_mark: *Mitgo ID* [users] ... выполнено"
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Delete   :recycle:",
+          "emoji": true
+        },
+        "value": "click_me_123",
+        "style": "primary"
+      }
+    }
+  ]
+}

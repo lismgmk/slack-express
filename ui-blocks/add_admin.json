@@ -1,0 +1,12 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "block_id": "add_admin_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":heavy_check_mark: {{ $('LOGIN').first().json.LOGIN }} was added as admin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "block_id": "mitgo_users_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":warning:  *Mitgo ID* [users] ... service responsed with 403 error"
+      }
+    },
+    {
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": ":repeat: Try again",
+          "emoji": true
+        },
+        "value": "click_me_123",
+        "style": "primary"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "block_id": "mitgo_users_block_id",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":no_entry:  *Mitgo ID* [users] ... founded but can't deleted"
+      }
+    }
+  ]
+}

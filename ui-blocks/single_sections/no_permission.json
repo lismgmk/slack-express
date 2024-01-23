@@ -1,0 +1,11 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "️ You don't have permissions to perform this action."
+      }
+    }
+  ]
+}
