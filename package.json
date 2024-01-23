@@ -17,7 +17,8 @@
     "@slack/web-api": "^5.8.0",
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
-    "keyv": "^4.0.0"
+    "keyv": "^4.0.0",
+    "node-fetch": "^2.6.6"
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
