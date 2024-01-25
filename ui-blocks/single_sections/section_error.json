@@ -11,6 +11,7 @@
     {
       "accessory": {
         "type": "button",
+        "action_id": "mitgo_users_button_action_again_delete",
         "text": {
           "type": "plain_text",
           "text": ":repeat: Try again",

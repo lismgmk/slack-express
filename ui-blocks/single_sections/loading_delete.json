@@ -1,0 +1,8 @@
+{
+  "type": "section",
+  "block_id": "mitgo_users_block_id",
+  "text": {
+    "type": "mrkdwn",
+    "text": "*Mitgo ID* [users] ... :hourglass_flowing_sand: start deleting"
+  }
+}

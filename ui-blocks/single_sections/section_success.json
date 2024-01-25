@@ -9,6 +9,7 @@
       },
       "accessory": {
         "type": "button",
+        "action_id": "button_action",
         "text": {
           "type": "plain_text",
           "text": "Delete   :recycle:",

@@ -1,0 +1,8 @@
+{
+  "type": "section",
+  "block_id": "mitgo_users_block_id",
+  "text": {
+    "type": "mrkdwn",
+    "text": ":ballot_box_with_check: *Mitgo ID* [users] ... user was deleted"
+  }
+}
